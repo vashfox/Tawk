@@ -1,0 +1,42 @@
+@import "~view-design/dist/styles/iview.css";
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", serif;
+  font-size: 18px;
+}
+
+.ivu-input-with-search:hover .ivu-input {
+  border-color: #03a84e;
+}
+
+.ivu-input {
+  border-radius: 0;
+}
+
+.ivu-input-search:hover {
+  background: #03a84e !important;
+  border-color: #03a84e !important;
+}
+
+.ivu-input-search {
+  cursor: pointer;
+  padding: 0 16px !important;
+  background: #03a84e !important;
+  color: #fff !important;
+  border-color: #03a84e !important;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  z-index: 2;
+}
+
+.ivu-breadcrumb a.ivu-breadcrumb-item-link[href="/"] {
+  color: #03a84e;
+}
